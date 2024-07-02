@@ -2,11 +2,11 @@ import numpy as np
 from scipy.stats import norm 
 
 r = 0.01
-S = 22450
-K = 22350
-T = 4/252
+S = 48983
+K = 40000
+T = 5/252
 sigma = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]
-type = 'c'
+type = 'p'
 
 def blackScholes(r, S, K, T, sigma, type):
     "Calculate BS price of call/put"
